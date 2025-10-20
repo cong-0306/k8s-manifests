@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: hello-app
-          image: ksmin0306/hello-app:latest
+          image: ksmin0306/hello-app:090c4f8
           # CI가 이 줄의 태그를 자동으로 ${short_sha}로 바꿉니다.
           ports:
             - containerPort: 8080
